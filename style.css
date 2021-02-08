@@ -13,14 +13,14 @@ header{
 .select-area{
     display: flex;
     padding: 1rem 0;
-    background-color: gray;
+    background-color: #eaeaea;
     justify-content: center;
 }
 
 .searchinput{
     border: none;
     margin-left: 2%;
-    background-color: gray;
+    background-color: #eaeaea;
     font-family: 'Roboto', sans-serif;
     outline: none;
 }
@@ -43,7 +43,7 @@ font-size: 30px;
 }
 
 .section1{
-    background-color: cornsilk;
+    background-color: #f6f6f6;
     height: 20rem;
 }
 
@@ -51,7 +51,7 @@ font-size: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    background-color: blueviolet;
+    background-color: #a75ddc;
     width: 15rem;
     height: 3rem;
     border-radius: 5rem;
@@ -59,6 +59,10 @@ font-size: 30px;
     margin: auto;
     text-align: center;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
 }
 
 .section2 h2{
@@ -70,21 +74,30 @@ margin: 10px 10px;
 .steps{
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: #f6f6f6;
     width: auto;
     border-radius: 1rem;
-    margin: 0 10px;
+    margin: 0 20px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
+}
+
+.steps:hover{
+    background-color: #f5edff;
 }
 
 .fa{
     padding: 0 2rem;
 }
 
+.fa-list-ul{
+    padding: 0 1.7rem 0 2rem;
+}
+
 .numb{
-    background-color: green;
+    background-color: #9356dc;
     padding: 4px 9px;
     border-radius: 50%;
-    margin-left: 2px;
+    margin-left: 10px;
     position: relative;
     top: 35px;
     z-index: 2;
@@ -99,7 +112,7 @@ margin: 10px 10px;
 }
 
 .section3{
-    background-color: goldenrod;
+    background-color:#f6f6f6;
     padding-bottom: 5rem;
 }
 
@@ -138,6 +151,9 @@ margin: 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .article-section3 a{
@@ -146,11 +162,15 @@ margin: 0 1rem;
 
 .card-section3 p{
     margin: 2px 0 1px 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 
+
+
 footer{
-    background-color: black;
+    background-color: #353535;
 }
 
 .footer-title{
@@ -185,6 +205,16 @@ padding-top: 3rem;
     margin: 0;
 }
 
+.mentions{
+    padding-left: 30px;
+    color: white;
+    margin-top: 0;
+}
+
+.contact{
+    color: white;
+    padding-left: 30px;
+}
 
 
 
