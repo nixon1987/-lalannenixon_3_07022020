@@ -1,0 +1,162 @@
+/* A la francaise */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fr-img{
+margin: 0;
+
+}
+
+.fr-img img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    margin: 0;
+}
+
+
+
+.fr-title{
+    bottom: 2rem; 
+    display: flex;
+    padding: 3rem 2rem 0 1rem;
+    position: relative;
+    background-color: #f6f6f6;
+    border-radius: 30px 30px 0 0 ;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+section{
+    background-color: #f6f6f6;
+    display: grid;
+    
+    
+}
+
+article{
+    background-color: white;
+    margin: 15px;
+    border-radius: 1rem;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, .1);
+    padding: 0.5rem 1rem;
+}
+
+article h3{
+    display: none;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    padding: 1rem 0 0.5rem 1rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: medium;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Shrikhand', cursive;
+}
+
+div p{
+    margin: 0.2rem 0;
+    
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price p{
+    font-size: 11px ;
+    font-weight: 300;
+}
+
+.btn{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: #a75ddc;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
+    /* background-image: linear-gradient(green blue) */
+    margin: 3rem auto;
+}
+
+footer{
+    background-color: #353535;
+}
+
+.footer-title{
+color: white;
+font-family: 'Shrikhand', cursive;
+margin-left: 20px;
+margin-top: 0;
+padding-top: 3rem;
+}
+
+.share{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.colaboration{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.share i{
+    padding-right: 15px;
+}
+
+.colaboration i{
+    padding-right: 10px;
+}
+
+.share p{
+    margin: 0;
+}
+
+.mentions{
+    padding-left: 30px;
+    color: white;
+    margin-top: 0;
+}
+
+.contact{
+    color: white;
+    padding: 0 0 30px 30px;
+    margin-bottom: 0;
+}
+
+.fa{
+    padding: 0 2rem;
+}
+
+.colaboration p{
+    margin: 1rem 0;
+}
