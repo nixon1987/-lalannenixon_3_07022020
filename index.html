@@ -10,120 +10,137 @@
     <script src="https://kit.fontawesome.com/ebc15ea3ac.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- loarder -->
+        <div class="load">
+            <div class="load__dot load--dot1"></div>
+            <div class="load__dot load--dot2"></div>
+            <div class="load__dot load--dot3"></div>
+      </div>
+    
+    <!-- header -->
+<header>ohmyfood</header>
 
-    <!-- mon header -->
-    <header>ohmyfood</header>
-    <!-- mon header -->
-
+    <!-- main -->
+<main>
     <!-- section1 -->
-    <section class="section1">
-        <div class="select-area">
-            <i class="fas fa-map-marker-alt iconsearch" aria-hidden="true"></i>
-            <input class="searchinput" type="search" placeholder="Paris, Belleville">
+    <section class="order">
+        <div class="order__selection">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <input class="order__selection--searchinput" type="search" placeholder="Paris, Belleville">
         </div>
-        <div class="search-area">
+        <div class="order__search">
             <h2>Réservez le menu qui vous convient</h2>
             <h4>Découvrez des restaurants d'exception, séléctionnés par nos soins.</h4>
-            <bouton class="btn">Explorer nos restaurants</bouton>
+            <button>Explorer nos restaurants</button>
         </div>
     </section>
-    <!-- section1 -->
 
     <!-- section2 -->
-    <section class="section2">
+    <section class="rules">
         <h2>Fonctionnement</h2>
-        <span class="numb">1</span>
-        <div class="steps">
-            <i class="fa fa-mobile" aria-hidden="true"></i>
+        <span class="rules__numb">1</span>
+        <div class="rules__steps">
+            <i class="fa fa-mobile rules__icon1" aria-hidden="true"></i>
             <p>Choisissez un restaurant</p>
         </div>
-        <span class="numb">2</span>
-        <div class="steps">
-            <i class="fa fa-list-ul" aria-hidden="true"></i>
+        <span class="rules__numb">2</span>
+        <div class="rules__steps">
+            <i class="fa fa-list-ul rules__icon" aria-hidden="true"></i>
             <p>Composez votre menu</p>
         </div>
-        <span class="numb">3</span>
-        <div class="steps">
-            <i class="fa fa-mobile" aria-hidden="true"></i>
+        <span class="rules__numb">3</span>
+        <div class="rules__steps">
+            <i class="fas fa-store rules__icon"></i>
             <p>Dégustez au restaurant</p>
         </div>
     </section>
-    <!-- section2 -->
-
+   
     <!-- section3 -->
-    <section class="section3">
+    <section class="restaurants">
         <h2>Restaurants</h2>
             <div class="cards">
     <!-- card1 -->
-                <article class="article-section3">
-                    <a href="lapalettedugout.html">
+                <article class="card__properties">
                     <h3>La palette du goût</h3>
-                        <figure class="card-section3">
+                    <a href="lapalettedugout.html">
+                        <figure class="card__img">
                             <img src="restaurants/La_palette_du_gout.jpg" alt="La palette du goût">
-                            <span class="stickers">Nouveau</span>
-                            <div class="text-card">
-                                <p class="title-section3">La palette du goût</p>
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                            </div>
-                            <p>Ménilmontant</p>
+                            <span class="card--stickers">Nouveau</span>
+                            <figcaption class="card__text">
+                                <p>La palette du goût</p>
+                                <p>Ménilmontant</p>
+                            </figcaption>
                         </figure>
-                        
                     </a>
+                    <div class="card--heart">
+                        <i class="heart1 far fa-heart"></i>
+                        <i class="heart2 fas fa-heart"></i>
+                    </div>        
                 </article>
     <!-- card2 -->
-                <article class="article-section3">
-                    <a href="lanoteenchante.html">
-                    <h3>La note enchantée</h3>
-                        <figure class="card-section3">
-                            <img src="restaurants/La_note_enchantée.jpg" alt="La note enchantée">
-                            <span class="stickers">Nouveau</span>
-                            <div class="text-card">
-                                <p class="title-section3">La note enchantée</p>
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                            </div>
+            <article class="card__properties">
+                <h3>La note enchantée</h3>
+                <a href="lanoteenchante.html">
+                    <figure class="card__img">
+                        <img src="restaurants/La_note_enchantée.jpg" alt="La note enchantée">
+                        <span class="card--stickers">Nouveau</span>
+                        <figcaption class="card__text">
+                            <p>La note enchantée</p>
                             <p>Charonne</p>
-                        </figure>
-                    </a>
-                </article>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="card--heart">
+                    <i class="heart1 far fa-heart"></i>
+                    <i class="heart2 fas fa-heart"></i>
+                </div>        
+            </article>
     <!-- card3 -->
-                <article class="article-section3">
-                    <a href="Alafrancaise.html">
-                    <h3>A la française</h3>
-                        <figure class="card-section3">
-                            <img src="restaurants/a_la_francaise.jpg" alt="A la française">
-                            <div class="text-card">
-                                <p class="title-section3">A la française</p>
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                            </div>
+            <article class="card__properties">
+                <h3>A la française</h3>
+                <a href="Alafrancaise.html">
+                    <figure class="card__img">
+                        <img src="restaurants/a_la_francaise.jpg" alt="A la française">
+                        <figcaption class="card__text">
+                            <p>À la française</p>
                             <p>Cité Rouge</p>
-                        </figure>
-                    </a>
-                </article>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="card--heart">
+                    <i class="heart1 far fa-heart"></i>
+                    <i class="heart2 fas fa-heart"></i>
+                </div>        
+            </article>
     <!-- card4 -->
-                <article class="article-section3">
-                    <a href="ledelicedessens.html">
-                    <h3>Le délice des sens</h3>
-                        <figure class="card-section3">
-                            <img src="restaurants/Le_delice_des_sens.jpg" alt="Le délice des sens">
-                            <div class="text-card">
-                                <p class="title-section3">Le délice des sens</p>
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                            </div>
+            <article class="card__properties">
+                <h3>Le délice des sens</h3>
+                <a href="ledelicedessens.html">
+                    <figure class="card__img">
+                        <img src="restaurants/Le_delice_des_sens.jpg" alt="Le délice des sens">
+                        <figcaption class="card__text">
+                            <p>Le délice des sens</p>
                             <p>Folie-Méricourt</p>
-                        </figure>
-                    </a>
-                </article>
+                        </figcaption>
+                    </figure>
+                </a>
+                <div class="card--heart">
+                    <i class="heart1 far fa-heart"></i>
+                    <i class="heart2 fas fa-heart"></i>
+                </div>        
+            </article>
             </div>
     </section>
+</main>
 
     <!-- footer -->
     <footer>
-        <p class="footer-title">ohmyfood</p>
-        <div class="share">
+        <p class="footer__title">ohmyfood</p>
+        <div class="footer__section footer--icon1">
             <i class="fa fa-cutlery" aria-hidden="true"></i>
             <p>Proposer un restaurant</p>
         </div>
-        <div class="colaboration">
+        <div class="footer__section footer--icon2">
             <i class="fa fa-handshake-o" aria-hidden="true"></i>
             <p>Devenir partenaire</p>
         </div>
