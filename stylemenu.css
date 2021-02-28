@@ -158,25 +158,76 @@ margin-bottom: 5px;
 
 
 /* apparition des menus */
-.container--animation1{
-    animation: nix 1s cubic-bezier(0,1,1,1);
+
+.animation1{
+    animation: appear 0.8s cubic-bezier(0,1,1,1);
+    animation-delay: 0.20s;
+    opacity: 0;
+    animation-fill-mode:forwards;
 }
 
-.container--animation2{
-    animation: nix 2s cubic-bezier(0,1,1,1);
-    margin: 1rem 0;
+.animation2{
+    animation: appear2 0.8s cubic-bezier(0,1,1,1);
+    animation-delay: 0.40s;
+    opacity: 0;
+    animation-fill-mode:forwards;
 }
 
-.container--animation3{
-    animation: nix 3s cubic-bezier(0,1,1,1);
-    margin: 1rem 0;
-
+.animation3{
+    animation: appear3 0.8s cubic-bezier(0,1,1,1);
+    animation-delay: 0.60s;
+    opacity: 0;
+    animation-fill-mode:forwards;
 }
 
-@keyframes nix{
+.animation4{
+    animation: appear3 0.8s cubic-bezier(0,1,1,1);
+    animation-delay: 0.80s;
+    opacity: 0;
+    animation-fill-mode:forwards;
+}
+
+
+@keyframes appear{
+    0%{
+        transform:translateY(5rem)
+        
+    }
+
+    100%{
+        opacity:1;
+        transform:translateY(0rem);
+    }
+}
+
+@keyframes appear2{
     0%{
         opacity:0;
-        transform:translateY(2rem)
+        transform:translateY(5rem)
+    }
+
+    100%{
+        opacity:1;
+        transform:translateY(0rem)
+    }
+}
+
+@keyframes appear3{
+    0%{
+        opacity:0;
+        transform:translateY(5rem)
+    }
+
+    100%{
+        opacity:1;
+        transform:translateY(0rem)
+    }
+}
+
+@keyframes appear4{
+    0%{
+        opacity:0;
+        transform:translateY(5rem)
     }
 
     100%{
@@ -234,7 +285,7 @@ margin-bottom: 5px;
     margin-left: 1rem;
 }
 
-.container:hover ~.underline{
+.checkorther1:hover ~.underline{
     width: 6.5rem;
     height: 2px;
 }
@@ -248,7 +299,7 @@ margin-bottom: 5px;
     margin-left: 1rem;
 }
 
-.container:hover ~.underline2{
+.checkorther2:hover ~.underline2{
     width: 4.5rem;
     height: 2px;
 }
@@ -262,7 +313,7 @@ margin-bottom: 5px;
     margin-left: 1rem;
 }
 
-.container:hover ~.underline3{
+.checkorther3:hover ~.underline3{
     width: 7.5rem;
     height: 2px;
 }
