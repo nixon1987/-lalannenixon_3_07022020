@@ -177,6 +177,10 @@ margin: 50px 0 10px 20px;
     color: #9356dc;
 }
 
+.rules__steps:hover > .rules__icon1{
+    color: #9356dc;
+}
+
 
 .rules__icon{
     padding: 0 2rem;
