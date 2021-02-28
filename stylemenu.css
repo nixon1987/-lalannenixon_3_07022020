@@ -239,9 +239,27 @@ margin-bottom: 5px;
     height: 2px;
 }
 
+.underline2{
+    width: 3.5rem;
+    height: 2px;
+    background-color: #99e2d0;
+    position:relative;
+    top:-22.5rem;
+    margin-left: 1rem;
+}
+
 .container:hover ~.underline2{
     width: 4.5rem;
     height: 2px;
+}
+
+.underline3{
+    width: 3.5rem;
+    height: 2px;
+    background-color: #99e2d0;
+    position:relative;
+    top:-22.5rem;
+    margin-left: 1rem;
 }
 
 .container:hover ~.underline3{
