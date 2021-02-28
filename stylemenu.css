@@ -124,16 +124,16 @@ margin: 0;
 
 .container__description :nth-child(1){
     font-weight: bold;
-    font-size: 20px;
     margin: 20px 0 0px 20px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
     
+    
 }
 
 .container__description :nth-child(2){
-    font-size: 14px;
+    font-size: small;
     margin: 10px 0 20px 20px;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -281,7 +281,7 @@ margin-bottom: 5px;
     height: 2px;
     background-color: #99e2d0;
     position:relative;
-    top:-21rem;
+    top:-20rem;
     margin-left: 1rem;
 }
 
@@ -295,7 +295,7 @@ margin-bottom: 5px;
     height: 2px;
     background-color: #99e2d0;
     position:relative;
-    top:-21rem;
+    top:-20rem;
     margin-left: 1rem;
 }
 
@@ -309,7 +309,7 @@ margin-bottom: 5px;
     height: 2px;
     background-color: #99e2d0;
     position:relative;
-    top:-21rem;
+    top:-20rem;
     margin-left: 1rem;
 }
 
