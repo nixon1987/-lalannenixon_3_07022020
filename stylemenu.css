@@ -7,6 +7,10 @@ body{
     max-width: 1220px;
 }
 
+main{
+    background-color: #f6f6f6; 
+}
+
 /* header */
 
 header{
@@ -277,7 +281,6 @@ margin-bottom: 5px;
 
 footer{
     background-color: #353535;
-    transform: translateY(-2rem);
 }
 
 
@@ -309,7 +312,6 @@ margin: 0;
     padding: 0 13px 10px 20px;
 
 }
-
 
 .mentions{
     padding-left: 20px;
