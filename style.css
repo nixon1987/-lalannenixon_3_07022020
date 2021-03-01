@@ -5,58 +5,48 @@ body{
 
 /* loader */
 
-.load{
-    Width:100%;
-    margin: 100% auto;
+
+.main__spinner{
+    content:"";
+    box-sizing:border-box;
+    position:fixed;
+    top:50%;
+    left:50%;
     display: flex;
-    position: fixed;
     justify-content: center;
-}
-
-.load__dot{
-    width: 70px;
-    height:70px;
+    margin-left:-50px;
+    margin-top:-50px;
+    height: 100px;px;
+    width: 100px;
     border-radius:50%;
-}
-  
-.load--dot1{
-    background-color:#9356DC ;
-    animation:jump-up 0.8s 0.1s ease forwards;
-    animation-iteration-count: 3;
-}
-  
-.load--dot2{
-    background-color:#FF79DA ;
-    animation:jump-up 0.8s 0.2s ease forwards;
-    animation-iteration-count: 3;
-}
-  
-.load--dot3{
-    background-color:#99E2D0;
-    animation:jump-up 0.8s 0.3s ease forwards;
-    animation-iteration-count: 3;
-}
+    border: 5px solid #99E2D0;
+    border-top-color: #FF79DA;
+    border-bottom-color:#9356DC;
+    animation: spinner 0.8s linear forwards;
+    animation-iteration-count:3;
 
-body > *{
-    animation: refresh 3s  ease-in;
-    
 }
-
-@keyframes jump-up{
+  
+  @keyframes spinner{
     0%{
-    opacity: 1;
-    }
-
-    50%{
-      transform: translate(0,100px);
-      opacity: 1;
+      transform: rotate(360deg);
+      opacity:1;
+      z-index:1;
     }
 
     100%{
-    opacity: 0;
-    display: none;
+      opacity: 0;
     }
-}
+    
+} 
+  
+
+body > *{
+    animation: refresh 5s forwards;
+ 
+} 
+
+
 
 @keyframes refresh{
     0%{
