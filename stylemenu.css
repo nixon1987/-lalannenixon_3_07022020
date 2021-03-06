@@ -19,7 +19,6 @@ header{
     grid-gap:0 1rem;
     align-items: center;
     justify-items: center;
-    
 }
 
 header :nth-child(1){

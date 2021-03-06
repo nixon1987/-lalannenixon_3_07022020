@@ -157,6 +157,8 @@ margin: 50px 0 10px 20px;
     margin: 0 20px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
     position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .rules__steps:hover{
@@ -170,6 +172,11 @@ margin: 50px 0 10px 20px;
 .rules__steps:hover > .rules__icon1{
     color: #9356dc;
 }
+
+.rules__steps:hover > p{
+    color: #9356dc;
+}
+
 
 
 .rules__icon{
@@ -354,6 +361,8 @@ margin: 0;
     color: white;
     padding: 5px 0 20px 20px;
     margin: 0;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
