@@ -111,6 +111,7 @@ margin: 0;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, .1);
     margin: 1rem auto;
     width: 95%;
+    cursor: pointer;
 }
 
 .container__description p{
@@ -119,6 +120,7 @@ margin: 0;
     overflow: hidden;
     margin-left: 3%;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container__description :nth-child(1){
@@ -127,12 +129,11 @@ margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    
-    
+
 }
 
 .container__description :nth-child(2){
-    font-size: small;
+    font-size: 12px;
     margin: 10px 0 20px 20px;
     white-space: nowrap;
     text-overflow: ellipsis;
