@@ -393,6 +393,8 @@ margin: 0;
     color: white;
     padding: 5px 0 20px 20px;
     margin: 0;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
